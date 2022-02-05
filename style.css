@@ -1,5 +1,7 @@
+
 body{
     background-color: lightblue;
+    font-family: 'Special Elite', cursive;
 }
 .heding_main{
     font-size: 20px;
@@ -13,5 +15,28 @@ body{
  color: blue;
  font-style: italic;
  font-family: fantasy;
- 
+
+}
+.div_main p{
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.div_main button{
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.div_footer {
+     color: rgb(131, 192, 17);
+     position: fixed;
+     width: 100%;
+     font-size: medium;
+     bottom: 0;
+     line-height: 3;
+     text-align: center;
+     text-shadow:  5px 5px 5px rgb(107, 107, 107);
+     background-color:darkslategray;
 }
